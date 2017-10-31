@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+  color:#3b5998;
+  font-family: 'Segoe UI';
+  font-weight: bold;
+}
+
+.registry_container {
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  background: linear-gradient(#f7f7f7,#8b9dc3)
+}
+
+.registry_container_title {
+  margin: 5px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+
+.registry_form {
+  width: 80%;
+  margin: auto;
+  text-align: right;
+  padding: 5px
+}
+
+.registry_form div {
+  margin: 10px;
+}
+
+.registry_form input{
+  width: 300px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+/* .registry_form select {
+  margin-right: 115px;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 5px;
+} */
+
+.container_gender select {
+  border-radius: 5px;
+  margin-right: 240px;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.birthday {  
+  padding-right:90px;
+  font-size: 15px;
+}
+
+.birthday_select {
+  width: 70px;
+  margin-right: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  display: inline-block;
+}
+
+.container_birthday_month {
+  display: inline-block;
+}
+
+p {
+  font-size: 10px;
+}
+
+button {
+  background: linear-gradient(#79bc64, #578843);
+  box-shadow: inset 0 1px 1px #a4e388;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  text-shadow: 0 1px 2px rgba(0,0,0,.5);
+  color: #fff;
+  font-size: 19px;
+  padding: 7px 20px;
+  border-radius: 5px;
+}
+
+input{
+  border-radius: 5px;
+}
+
+input:focus {
+  box-shadow: 11px 3px 7px -8px rgba(85,182,212,0.84);
+}
+
+
+
